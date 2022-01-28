@@ -6,8 +6,7 @@ import java.util.Scanner;
 public class Exercicio3 {
 	public static void main(String[] args) {
 		Scanner leia = new Scanner(System.in);
-		Random random = new Random();
-		int numRandom = random.nextInt(1, 9);
+		Random random = new Random();		
 
 		int N1[][] = new int[4][6];
 		int N2[][] = new int[4][6];
@@ -18,7 +17,7 @@ public class Exercicio3 {
 		// N1
 		for (linha = 0; linha < 4; linha++) {
 			for (coluna = 0; coluna < 6; coluna++) {
-				N1[linha][coluna] = numRandom;
+				N1[linha][coluna] = random.nextInt(1,9);
 
 			}
 		}
@@ -27,7 +26,7 @@ public class Exercicio3 {
 
 		for (linha = 0; linha < 4; linha++) {
 			for (coluna = 0; coluna < 6; coluna++) {
-				N2[linha][coluna] = numRandom;
+				N2[linha][coluna] = random.nextInt(1,9);
 
 			}
 		}
