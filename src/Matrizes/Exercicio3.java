@@ -57,7 +57,7 @@ public class Exercicio3 {
 		}
 		for (linha = 0; linha < 3; linha++) {
 			for (coluna = 0; coluna < 3; coluna++) {
-				System.out.print("\t" + M1[linha][coluna]);
+				System.out.print("\t" + M2[linha][coluna]);
 
 			}leia.close();
 			System.out.print("\n");
