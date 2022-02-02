@@ -4,7 +4,16 @@ public class HerancaAnimal {
 	private String nome;
 	private int idade;
 	private String som;
+	private String andar;
 	
+	public String getAndar() {
+		return andar;
+	}
+
+	public void setAndar(String andar) {
+		this.andar = andar;
+	}
+
 	public HerancaAnimal (String nome, int idade, String som)
 	{
 		this.nome = nome;

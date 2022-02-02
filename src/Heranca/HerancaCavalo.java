@@ -3,10 +3,10 @@ package Heranca;
 public class HerancaCavalo extends HerancaAnimal{
 	private String horse;
 	
-	public HerancaCavalo(String nome, int idade, String som, String correr)
+	public HerancaCavalo(String nome, int idade, String som, String corre)
 	{
 		super (nome, idade, som);
-		this.horse= correr;
+		this.horse= corre;
 	}
 
 	public String getHorse() {
