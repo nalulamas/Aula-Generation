@@ -12,18 +12,24 @@ public class Ex2Principal {
 		auau.setIdade(2);
 		auau.emitirSom();
 		auau.locomocao();
+		System.out.println(auau.getNome());
+		System.out.println(auau.getIdade());
 		
 		System.out.println(" Especificações do Cavalo");
 		pocoto.setNome("Junin");
 		pocoto.setIdade(7);
 		pocoto.emitirSom();
 		pocoto.locomocao();
+		System.out.println(pocoto.getNome());
+		System.out.println(pocoto.getIdade());
 		
 		System.out.println(" Especificações da Preguiça");
 		lazy.setNome("Jully");
 		lazy.setIdade(4);
 		lazy.emitirSom();
 		lazy.locomocao();
+		System.out.println(lazy.getIdade());
+		System.out.println(lazy.getNome());
 	}
 
 }
